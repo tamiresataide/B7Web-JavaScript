@@ -6,7 +6,7 @@ console.log(x > y);
 // Substitua o @ pela condicional correta para que o resultado seja FALSE
 let w = '10';
 let z = 10;
-console.log(w == z)
+console.log(w === z)
 
 // Substitua o @ pela condicional correta para que o resultado seja TRUE
 let a = 10;
