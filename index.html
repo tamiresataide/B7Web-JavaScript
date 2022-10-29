@@ -7,15 +7,33 @@
    <title>Document</title>
 </head>
 <body>
-   <h1>Olá JavaScript</h1>
+   <h1 id="titulo" onmouseover='this.innerHTML = "Passou o mouse"' onmouseout="this.innerHTML = 'Tirou o mouse'"">Olá JavaScript</h1>
+
+   <ul id="lista">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+   </ul>
+
+   <ul>
+      <li>Elemento 4</li>
+      <li>Elemento 5</li>
+      <li>Elemento 6</li>
+   </ul>
+
+   <button class="titulo">Título</button>
+   <button class="append">Append</button>
+   <button class="prepend">Prepend</button>
+   <button class="before">Before</button>
+   <button class="after">After</button>
+
+   <div>
+      <input type="password" name="teste" id="inputTest" placeholder="Digite uma senha">
+      <input type="checkbox" name="mostrarSenha" id="mostrarSenha">
+      <label for="mostrarSenha">mostrar senha</label>
+      </div>
 
 
-   <script src="./assets/js/exercicios-01.js"></script>
-   <script src="./assets/js/exercicios-02.js"></script>
-   <script src="./assets/js/exercicios-03.js"></script>
-   <script src="./assets/js/exercicios-04.js"></script>
-   <script src="./assets/js/exercicios-05.js"></script>
-   <script src="./assets/js/exercicios-06.js"></script>
    <script src="./assets/js/script.js"></script>
 </body>
 </html>
